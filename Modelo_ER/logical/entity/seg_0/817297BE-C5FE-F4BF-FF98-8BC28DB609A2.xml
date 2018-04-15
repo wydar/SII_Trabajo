@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="817297BE-C5FE-F4BF-FF98-8BC28DB609A2" name="Documento">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:30:58 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_documento" id="BAEC22D4-81AF-6C21-BB9A-C31B1898BC7E">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:31:05 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="6A6C1D2A-7849-B547-6CFC-1C5D65F56D96">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:32:06 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="B336E1D6-F8D1-96F3-7945-E8169832FFCF">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:31:16 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Copia_documento" id="14A5EF9F-1D35-E76C-7AB3-F6BDE5D90C4F">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:31:22 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="C4CF85F2-6A94-7021-B460-A2FBC7020A37">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:31:29 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F04C77D-A150-AE2D-0885-2ECACB26A77B" name="Documento PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:31:14 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BAEC22D4-81AF-6C21-BB9A-C31B1898BC7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

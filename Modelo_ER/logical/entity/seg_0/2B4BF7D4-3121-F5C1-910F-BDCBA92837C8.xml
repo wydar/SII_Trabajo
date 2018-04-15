@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B4BF7D4-3121-F5C1-910F-BDCBA92837C8" name="Evento">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:27:51 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_evento" id="F23E824D-D1AA-4041-D3A2-42FC90E64E00">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:27:56 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="02CBA24B-6906-A2D1-FA83-17969D617FF6">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:28:02 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="B3F76764-2375-51AA-4028-BCA9AB7E1B9D">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:28:05 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Localizacion" id="C2137DAD-D27B-2B08-ED65-CE7F7AEAC34C">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:28:08 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Presupuesto" id="73F36CA7-8747-01F9-CFCB-A0C648A0B2E4">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:28:16 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D7CF377-E02E-CEAB-B863-CA3D1DEB70B0" name="Evento PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:42:09 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F23E824D-D1AA-4041-D3A2-42FC90E64E00</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

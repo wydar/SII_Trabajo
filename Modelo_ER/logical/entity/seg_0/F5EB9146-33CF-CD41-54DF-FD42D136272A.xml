@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5EB9146-33CF-CD41-54DF-FD42D136272A" name="Historial_asistencias">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:33:32 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha" id="D31DC97C-C143-8AE8-B301-3A74B6663C4A">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:34:05 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Credencial" id="B3608594-6FE7-3DC2-1D50-5DA38931CFD9">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:44:04 UTC</createdTime>
+<generatorID>6AC23C84-1485-62B1-A0A0-3A00495C49AF</generatorID>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<referedAttribute>F556779D-0EDF-8F0E-5D56-07E0F859F5AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_evento" id="2B3E1023-A455-C446-FDC4-BA1A5C0B41F2">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 11:03:37 UTC</createdTime>
+<generatorID>6B52D8EF-3E6D-A3A7-6E33-FB5CD6BC5EF2</generatorID>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<referedAttribute>F23E824D-D1AA-4041-D3A2-42FC90E64E00</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D078B38C-D2B2-AE13-6F8F-E84F74871DED" name="Historial_asistencias PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:44:04 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3608594-6FE7-3DC2-1D50-5DA38931CFD9</attributeRef>
+<attributeRef>2B3E1023-A455-C446-FDC4-BA1A5C0B41F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

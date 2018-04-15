@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DD7AA62-3B6E-4BED-571A-D35B292BF64B" name="Fechas">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:26:59 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tipo" id="7DFACA2D-B6A5-3AA8-1DA7-74E4358D315F">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:27:14 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="5DE2A4D6-C837-7A9A-96B9-036F021A9805">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:27:21 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Credencial" id="40CCB2F5-C0FE-5E27-440D-8CE94EB30CE3">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 11:01:45 UTC</createdTime>
+<generatorID>A701F79F-442F-4984-5579-23947446B62C</generatorID>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<referedAttribute>F556779D-0EDF-8F0E-5D56-07E0F859F5AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E62AFBD-8F17-8150-24FD-0FB6C0AB83EF" name="Fechas PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 10:27:27 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DFACA2D-B6A5-3AA8-1DA7-74E4358D315F</attributeRef>
+<attributeRef>40CCB2F5-C0FE-5E27-440D-8CE94EB30CE3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
