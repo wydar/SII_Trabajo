@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B4BF7D4-3121-F5C1-910F-BDCBA92837C8" name="Evento">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A40EF77F-A57A-7261-0EAA-D8A9021F3760" name="Seccion">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:27:51 UTC</createdTime>
+<createdTime>2018-04-15 15:26:04 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_evento" id="F23E824D-D1AA-4041-D3A2-42FC90E64E00">
+<Attribute name="ID_seccion" id="C311390C-758B-6929-8592-011E020282EA">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:27:56 UTC</createdTime>
+<createdTime>2018-04-15 15:26:12 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
@@ -25,9 +25,20 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="02CBA24B-6906-A2D1-FA83-17969D617FF6">
+<Attribute name="Nombre" id="7D836718-22F8-6A2A-434F-B40DAEC7A9F9">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:28:02 UTC</createdTime>
+<createdTime>2018-04-15 15:30:36 UTC</createdTime>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad_minima" id="EF8E0FD4-5D5A-CA2C-6BBB-D0402B6F22B3">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 15:26:15 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
@@ -35,39 +46,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha" id="B3F76764-2375-51AA-4028-BCA9AB7E1B9D">
+<Attribute name="edad_maxima" id="311DBE4E-8241-F84A-6CBF-02E7432DB564">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:28:05 UTC</createdTime>
-<ownerDesignName>Modelo_ER</ownerDesignName>
-<engineerTo>
-<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Localizacion" id="C2137DAD-D27B-2B08-ED65-CE7F7AEAC34C">
-<createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:28:08 UTC</createdTime>
-<ownerDesignName>Modelo_ER</ownerDesignName>
-<engineerTo>
-<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Precio" id="5A581269-24C4-0EA6-4763-466D88A72BEE">
-<createdBy>PC</createdBy>
-<createdTime>2018-04-15 15:38:54 UTC</createdTime>
-<ownerDesignName>Modelo_ER</ownerDesignName>
-<engineerTo>
-<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Presupuesto" id="73F36CA7-8747-01F9-CFCB-A0C648A0B2E4">
-<createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:28:16 UTC</createdTime>
+<createdTime>2018-04-15 15:26:19 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
@@ -77,16 +58,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4D7CF377-E02E-CEAB-B863-CA3D1DEB70B0" name="Evento PK">
+<identifier id="A53AB1C9-1F6A-0CA7-7A07-0A15A8DD8736" name="Seccion PK">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:42:09 UTC</createdTime>
+<createdTime>2018-04-15 15:28:52 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F23E824D-D1AA-4041-D3A2-42FC90E64E00</attributeRef>
+<attributeRef>C311390C-758B-6929-8592-011E020282EA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

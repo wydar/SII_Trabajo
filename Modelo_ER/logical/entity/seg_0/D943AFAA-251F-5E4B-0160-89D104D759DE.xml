@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B4BF7D4-3121-F5C1-910F-BDCBA92837C8" name="Evento">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D943AFAA-251F-5E4B-0160-89D104D759DE" name="Notif_evento">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:27:51 UTC</createdTime>
+<createdTime>2018-04-15 15:34:44 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_evento" id="F23E824D-D1AA-4041-D3A2-42FC90E64E00">
+<Attribute name="Fecha" id="DD520476-E396-D410-31B9-400B749748EB">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:27:56 UTC</createdTime>
+<createdTime>2018-04-15 15:35:21 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
@@ -25,68 +25,57 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="02CBA24B-6906-A2D1-FA83-17969D617FF6">
+<Attribute name="Descripcion" id="FD85A2CF-99F0-B936-A726-D581CC1FDEA9">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:28:02 UTC</createdTime>
+<createdTime>2018-04-15 15:37:41 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha" id="B3F76764-2375-51AA-4028-BCA9AB7E1B9D">
+<Attribute name="Credencial" id="1EB893BA-E4F2-E818-43A8-46F6CB8BC7E0">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:28:05 UTC</createdTime>
+<createdTime>2018-04-15 15:38:23 UTC</createdTime>
+<generatorID>F69ACD45-47C6-1E75-8975-230914682B12</generatorID>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
 </engineerTo>
-<use>0</use>
+<referedAttribute>F556779D-0EDF-8F0E-5D56-07E0F859F5AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Localizacion" id="C2137DAD-D27B-2B08-ED65-CE7F7AEAC34C">
+<Attribute name="ID_evento" id="EAB24067-5ADD-7C29-EAA7-1A284004477F">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:28:08 UTC</createdTime>
+<createdTime>2018-04-15 15:38:32 UTC</createdTime>
+<generatorID>09EF6B0F-C3F8-2EEE-A738-247090CAE943</generatorID>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Precio" id="5A581269-24C4-0EA6-4763-466D88A72BEE">
-<createdBy>PC</createdBy>
-<createdTime>2018-04-15 15:38:54 UTC</createdTime>
-<ownerDesignName>Modelo_ER</ownerDesignName>
-<engineerTo>
-<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Presupuesto" id="73F36CA7-8747-01F9-CFCB-A0C648A0B2E4">
-<createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:28:16 UTC</createdTime>
-<ownerDesignName>Modelo_ER</ownerDesignName>
-<engineerTo>
-<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
-</engineerTo>
+<referedAttribute>F23E824D-D1AA-4041-D3A2-42FC90E64E00</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4D7CF377-E02E-CEAB-B863-CA3D1DEB70B0" name="Evento PK">
+<identifier id="498CD50B-43BB-A12E-A8CE-E3585422C797" name="Notif_evento PK">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-15 10:42:09 UTC</createdTime>
+<createdTime>2018-04-15 15:38:06 UTC</createdTime>
 <ownerDesignName>Modelo_ER</ownerDesignName>
 <engineerTo>
 <item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F23E824D-D1AA-4041-D3A2-42FC90E64E00</attributeRef>
+<attributeRef>DD520476-E396-D410-31B9-400B749748EB</attributeRef>
+<attributeRef>1EB893BA-E4F2-E818-43A8-46F6CB8BC7E0</attributeRef>
+<attributeRef>EAB24067-5ADD-7C29-EAA7-1A284004477F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

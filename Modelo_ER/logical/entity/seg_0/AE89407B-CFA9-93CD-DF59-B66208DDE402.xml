@@ -162,6 +162,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_seccion" id="9828A86F-31CE-5E4B-760A-F25D985810A3">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-15 15:29:13 UTC</createdTime>
+<generatorID>941237AB-1640-1CAE-BC42-4DEA91222C7B</generatorID>
+<ownerDesignName>Modelo_ER</ownerDesignName>
+<engineerTo>
+<item key="34A6B3A4-E5AA-44D1-6864-29DF14A2F510" value="true"/>
+</engineerTo>
+<referedAttribute>C311390C-758B-6929-8592-011E020282EA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9C024A63-96F7-611E-E035-AFCB8C8B132E" name="Usuario PK">
